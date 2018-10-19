@@ -90,13 +90,15 @@ describes the consecutive intervals Promo2 is started, naming the months the pro
 Both train and test data date features, therefore, I wanted to check if there's a trend in terms of sales. By checking the train dataset, we can observe that there is seasonality, which might be informative.
 I also wanted to check if customers had similar patterns based on stores and some stores tended to have higher numbers of customers with regards to their average expenditure.
 In the processing of eda, I was able to find a relationship between sales and customers.
-![sales_customers](https://github)
+![sales_customers](https://github.com/yoonkim0715/new_capstone/blob/master/images/customers2013.png)
+![sales_customers](https://github.com/yoonkim0715/new_capstone/blob/master/images/customers2014.png)
+![sales_customers](https://github.com/yoonkim0715/new_capstone/blob/master/images/customers2015.png)
 It turns out that store type and assortment have some effects with regards to promotion.
-![sales_storetype](https://github)
-![sales_assortment](https://github)
+![sales_storetype](https://github.com/yoonkim0715/new_capstone/blob/master/images/store_sales.png)
+![sales_assortment](https://github.com/yoonkim0715/new_capstone/blob/master/images/assrotment_sales.png)
 Although most of stores are closed on national holidays, stores tended to have good sales on school holiday.
 It also turns out that which day of week is a good indicator of average sales.
-![sales_assortment](https://github)
+![bar_plot](https://github.com/yoonkim0715/new_capstone/blob/master/images/barplot_holiday.png)
 
 
 I assumed that there might be more promotions if stores are closed to competitors. However, the distance between competitor did not seem like to have an effect on promotion.
