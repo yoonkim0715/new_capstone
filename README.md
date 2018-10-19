@@ -32,6 +32,8 @@ There are various image files total which show the relationship between the vari
 ## Data Gathering
 
 I obtained data from Kaggle and data is available on [here](https://www.kaggle.com/c/rossmann-store-sales)
+
+
 The data contained three different csv files, which are train, test, and store.
 
 #### Train
@@ -93,11 +95,19 @@ In the processing of eda, I was able to find a relationship between sales and cu
 ![sales_customers](https://github.com/yoonkim0715/new_capstone/blob/master/images/customers2013.png)
 ![sales_customers](https://github.com/yoonkim0715/new_capstone/blob/master/images/customers2014.png)
 ![sales_customers](https://github.com/yoonkim0715/new_capstone/blob/master/images/customers2015.png)
+
+
 It turns out that store type and assortment have some effects with regards to promotion.
+
+
 ![sales_storetype](https://github.com/yoonkim0715/new_capstone/blob/master/images/store_sales.png)
 ![sales_assortment](https://github.com/yoonkim0715/new_capstone/blob/master/images/assrotment_sales.png)
+
+
 Although most of stores are closed on national holidays, stores tended to have good sales on school holiday.
 It also turns out that which day of week is a good indicator of average sales.
+
+
 ![bar_plot](https://github.com/yoonkim0715/new_capstone/blob/master/images/barplot_holiday.png)
 
 
