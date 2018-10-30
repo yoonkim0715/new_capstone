@@ -47,12 +47,17 @@ Compared to linear regression, random forest does not need to satisfy some assum
 |Lasso     |      0.207        |        2608.22          |
 |Random Forest    	   |      0.287        |        2668.57          |
 
+Based on Lasso, these are the important features.
+![betas](https://github.com/yoonkim0715/new_capstone/blob/master/images/betas.png)
+
+Feature Importance based on random forest.
+![feat](https://github.com/yoonkim0715/new_capstone/blob/master/images/feature.png)
+
+In order to predict the sales price, I would like to use Lasso linear regression. The reason is that it is fast to train, therefore, it is time and money efficient. Also, it is easy to interpret the result. 
 
 
 
 ### Recommendation
-
-For the model, I will choose Lasso Linear Regression. This is because it is easy to interpret and also the scores including R2 and root mean squared error out perform in Lasso linear regression than Random forest.
 
 Based on the result, promo does affect an increase of sales. More promotions will attract more customers, which lead to higher sales. It is because customers and sales have a high correlation, therefore, it is predictable that when more customers come to shop at the stores, the stores have a higher chance to boost their sales.
 In terms of store types, there are 4 different store types, which are a,b,c, and d. All the 4 different types of stores tend to increase their sales when they have promotion. However, based on the results from Lasso, stores with storetype b have the second highest weight in my model, which means that we can promote more promotion in these types of stores in order to boost the total sales.
